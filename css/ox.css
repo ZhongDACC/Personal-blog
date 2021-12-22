@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 191px;
+	background-image: url(../img/jianpan.jpg);
+}
+    #headerText{
+		font-size: 50px;
+		font-family:"宋体"; 
+		margin-top: 100px;
+		float: right;
+	}
+	/* 头部内容 */
+#nav{
+	margin: 0px auto;
+	width: 1500px;
+	height: 55px;
+}
+    #nav ul li:nth-child(3){background-color: #00FF00;}
+	#nav ul li{
+	    width: 500px;
+		height: 55px;
+		list-style: none;
+		line-height: 55px;
+		font-size: 16px;
+		text-align: center;
+		float: left;
+		background-color: #cccccc;
+		}
+	#nav ul li a{
+		display: block;
+		font-size: #000000;
+		text-decoration: none;
+		font-size: 30px;
+		}
+	#nav ul li a:hover{
+		background-color: #00FF00;
+		color: #FFFFFF;
+		}
+	#nav ul li a:visited{
+		color: #FFFFFF;
+		}
+	#nav ul li a:link{
+		color: #FFFFFF;
+		}
+		/* 导航栏 */
+#main{
+	margin: 0 auto;
+	width: 1700px;
+	height: 700px; 
+	font-size: 20px;
+	line-height: 40px;
+}
+#mainPhoto{
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+#mainText ul li{
+	display: block;
+	
+}
+#mainText{
+	margin-top: 30px;
+	margin-right: 30px;
+	width:1300px;
+	height:650px ;
+	float: right;
+}
+/* 主要内容 */
+#footer{
+	width: 100%;
+	height: 175px;
+}
+#footerPhoto{
+	width:600px ;
+	height: 175px;
+	margin: 0px auto;
+}
+/* 底部内容 */
